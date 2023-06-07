@@ -1,0 +1,100 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+.table1{
+border: 1px solid green;
+background-color:#fae9e9;
+}
+.table1 td{
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	
+}
+ body{
+    margin:auto 150px;
+  }
+     .biaoti{
+     line-height:70px;
+  }
+ .daohang{
+     margin-top:2px;
+     height:52px;
+     
+  }
+     .nav li{
+     float:left;
+     display:block;
+     height:30px;
+     list-style:none;
+     padding-top:12px;
+     margin-right:3px;
+  }
+   .nav li a{
+    display:block;
+    text-decoration: none;
+    font-size:15px;
+    padding:0 30px;
+    
+  }
+  .active{
+       background-color:#337ab7 !important;
+       border-radius:5px;
+  }
+  .active a{
+       color:white;
+  }
+  .col-md-3{
+    float:left;
+     width:28%;
+     margin-right:10px;
+     height:450px;
+     background-color:#FCFCFC;
+  }
+  .col-md-9{
+     float:right;
+     width:70%;
+  }
+  .col-md-9 .container1 .table1{
+      margin:30px 50px;
+  }
+  .table1 thead th{
+    width:150px;
+    height: 40px;
+	background-color:#ffc0cbd9;
+  }
+  .nav-pills li{
+     display:block;
+     height:50px;
+     list-style:none;
+     padding-top:2px;
+     margin-left:20px;
+    }
+    .nav-pills li a{
+    display:block;
+    text-decoration: none;
+    font-size:16px;
+    padding-left:10px;
+    line-height:52px;
+    
+  }
+   li:hover{
+    background:#e0e0e0bd;
+  }
+  .active li:hover{
+    display:none;
+  }
+  .quchu a{
+    text-decoration: none;
+  }
+  .table1 a:visited{
+	color:#0000EE;
+}
+  .table1 a:link{
+	color:#0000EE;
+}
+  ul{
+   list-style-type: none;
+  }

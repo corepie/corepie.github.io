@@ -1,0 +1,56 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+.box{
+	position:relative;
+	top:0;
+	left:0;
+	margin-left:460px;
+	margin-top:80px;
+	width:700px;
+	height:700px;
+	background-color:pink;
+	border-radius:40px;
+}
+.box h1{
+	width:100%;
+	height:88px;
+	line-height:88px;
+	text-align:center;
+}
+.box form{
+	font-size:26px;
+	margin-left:110px;
+}
+.box form input{
+	font-size:23px;
+	width:300px;;
+	height:36px;
+	margin-top:20px;
+	text-indent:8px;
+}
+.box form select{
+	font-size:23px;
+	width:300px;;
+	height:36px;
+	margin-top:20px;
+}
+.fanhui{
+	position:absolute;
+	top:81.5%;
+	right:23%;
+	font-size:23px;
+	width:150px;
+	height:36px;
+	line-height:36px;
+	background-color:#f0f0f0;
+	border: 1px solid #444;
+	color:black;
+	text-align:center;
+	
+}
+.box form span{
+	padding:10px;
+}

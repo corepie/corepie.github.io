@@ -1,0 +1,13 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+#table1 td{
+	width: 600px;
+	height: 20px;
+	background: red;
+}
+#table1 tr:nth-child(even){
+	background: #000;
+}
